@@ -1,0 +1,27 @@
+@import '../base/variables';
+@import '../base/listas';
+
+/* ------------------------Fin Seccion Footer----------------------- */
+.footer{
+    background-image: $bg-color-footer; 
+  
+}
+
+.iconos_redes{
+    border-style: none;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+ }
+ 
+ .redes{
+    display: flex;
+    justify-content:center;
+ }
+ 
+ .firma{
+    display: flex;
+    justify-content:center;
+    font-size: 10px;
+ }
+/* ------------------------Fin Seccion Footer----------------------- */

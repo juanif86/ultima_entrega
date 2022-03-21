@@ -1,0 +1,156 @@
+/*------ Reseteo de paarametros------------ */
+*{
+   margin:0;
+   box-sizing: border-box;
+}
+
+
+
+/*------ Declaración de Variables------------ */
+:root {
+   --color1: #D83A56;
+   --color2: #FF616D;
+   --color3: #FFEAC9;
+   --color4: #66DE93;
+}
+
+/*------Estilos Header---------------------- */
+.logo{
+    border-style: none;
+    border-color: var(--color2);   
+    height: 120px;
+    width: 280px;
+ }
+/* ------Secciones------ */
+
+/* ------Seccion1 (Inicio)------ */
+
+.seccion1{
+   background-image: url(Imagenes/portada-globos.jpg); 
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+   background-size:cover;  
+   padding: 150px 0px;
+   margin: 10px 0px;
+   /* background-image: linear-gradient(var(--color3),var(--color2)); */
+   width: 100%;
+   text-align: center;
+}
+/* ------Fin Seccion1------ */
+
+/* ------Seccion3------ */
+.fondo{ 
+   text-align: center;    
+   margin: 0px 0px; 
+   background-image: linear-gradient(var(--color3),var(--color2));
+}
+.promociones2{
+   text-align: left;
+   margin: 0px 0px;
+}
+.titulos{
+   text-align: center;
+   color: #66DE93;
+   background-image: linear-gradient(var(--color3),var(--color2));
+}
+.titulo1{
+   font-size:100px;
+   color: white;
+   text-shadow: 7px 4px 5px rgb(15, 15, 15);
+   text-transform: uppercase;
+}
+
+/* ------Seccion5------ */
+
+.seccion5{ 
+   grid-area: seccion5;
+   border-style: solid;
+   border-color: var(--color1);
+   margin: 10px 0px;
+   padding:  5px;
+   background-color: var(--color3);
+}
+
+.form-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   
+   max-width: 180px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: black;
+   margin: 10px auto;
+
+}
+.form{
+   justify-content: center;
+   margin: 10px;
+}
+
+/* -----------    Fin Seccion5   ----------- */
+
+ /*-----------    Estilos para Imagenes    -----------*/
+
+.desfasado{
+   transform: translate(20px, 20px);
+}
+
+h2:hover{
+   border: solid 5px #66DE93;
+}
+
+
+
+
+/*-----------    Estilos Lugares    -----------*/
+
+.city-container{
+   border-style: solid;
+   border-color: var(--color1);
+   margin: 10px 0px;
+   padding: px 5px;
+   background-color: var(--color3);
+}
+
+.city-subcontainer{
+   display: flex;
+}
+
+.city-parrafo{
+   width: 40%;
+   height: 182px;
+   margin-top: 20px;
+   border-style:solid;
+   border-width: 1px;
+   border-color: var(--color1);
+}
+
+/*------Footer------*/
+
+.footer{
+   grid-area: footer;
+}
+
+.iconos_redes{
+   border-style: solid;
+   border-width: 2px;
+   border-color: var(--color3);
+   height: 30px;
+   width: 30px;
+}
+
+.redes{
+   display: flex;
+   justify-content:center;
+}
+
+.firma{
+   display: flex;
+   justify-content:center;
+}
+/*------Fin Footer------*/
+
+
+
+

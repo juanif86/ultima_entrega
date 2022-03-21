@@ -1,0 +1,19 @@
+{
+  "name": "proyecto_final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanif86/Desafio_Final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanif86/Desafio_Final/issues"
+  },
+  "homepage": "https://github.com/juanif86/Desafio_Final#readme",
+  "description": ""
+}

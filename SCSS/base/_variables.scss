@@ -1,0 +1,11 @@
+@import '../base/listas';
+
+$bg-color-header: none;
+$bg-color-section: linear-gradient(nth($paleta1,4), nth($paleta1,4));
+$bg-color-contacto: lightblue;
+$bg-color-footer: linear-gradient(nth($paleta1,1), nth($paleta1,2));
+$bg-color-card1: linear-gradient(nth($paleta1,4), nth($paleta1,1));
+$bordes: nth($paleta1, 4);
+$bg-color-destinos: nth($paleta1, 4);
+
+
